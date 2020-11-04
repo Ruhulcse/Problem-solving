@@ -1,2 +1,2 @@
 # Problem-solving
-All programming problem solve here
+The collections of problem's solution that i am solving from 18 octorber 2020
