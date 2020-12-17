@@ -20,6 +20,7 @@ public:
         int sum=0;
         while(!q.empty()){
             int n=q.size();
+            
             int lsum=0;
             for(int i=0;i<n;i++){
                 TreeNode *p = q.front();
