@@ -11,7 +11,9 @@ public:
     }
     hash[nums.at(i)]=i;
   }
-return res;
+    return res;
+        
+        
         
     }
 };
