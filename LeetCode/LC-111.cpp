@@ -26,6 +26,7 @@ public:
                 q.pop();
                 if(p->left==NULL&&p->right==NULL){
                     return result;
+          
                 }
                 if(p->left!=NULL){
                     q.push(p->left);
