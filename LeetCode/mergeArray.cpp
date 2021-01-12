@@ -6,6 +6,7 @@ public:
         for(int i=0;i<n;i++){
             nums1[i+m]=nums2[i];
         }
+        //sort the array
         sort(nums1.begin(),nums1.end());
     }
 };
