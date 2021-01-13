@@ -16,6 +16,7 @@ public:
         if(root==NULL){
             return 0;
         }
+        //make bfs search
         queue<TreeNode *>q;
         q.push(root);
         int level=0;
