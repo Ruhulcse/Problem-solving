@@ -8,6 +8,7 @@ int main()
  for(int i=0;i<n;i++){
    cin>>a[i];
  }
+ //Binary search ...
  for(int i=0;i<k;i++){
    int x;
    cin>>x;
