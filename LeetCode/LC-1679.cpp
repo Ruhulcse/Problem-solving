@@ -5,6 +5,7 @@ public:
         int i=0;
         int j=nums.size()-1;
         int cnt=0;
+        //applied two pointer in this problem
         while(i<j){
             if(nums[i]+nums[j]==k){
                 cnt++,i++,j--;
