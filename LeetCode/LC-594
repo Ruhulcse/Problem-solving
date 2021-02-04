@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int findLHS(vector<int>& nums) {
+        map<int,int>mp;
+        for(auto n : nums){
+            mp[n]++;
+        }
+        vector<int>store;
+        for( auto m: mp){
+           store.push_back(m.first);
+        }
+        int mx=0;
+        for(int i=1;i<store.size();i++){
+            if(abs(store[i]-store[i-1])==1){
+                int result=mp[store[i]]+mp[store[i-1]];
+                mx=(result>mx?result:mx);
+                
+            }
+        }
+        return mx;
+    }
+};
