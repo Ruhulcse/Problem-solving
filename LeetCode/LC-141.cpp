@@ -1,3 +1,5 @@
+
+//cycle finding problem for linklist
 bool hasCycle(struct ListNode *head) {
     struct ListNode *fast=head, *slow=head;
     while( slow && fast && fast->next ){
